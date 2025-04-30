@@ -1,0 +1,128 @@
+.mainContainer {
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+    .pikachuImage {
+      margin-left: 40px;
+      margin-bottom: 20px;
+    }
+
+    .cloudImageLeftTop {
+      position: absolute;
+      top: 100px;
+      left: 160px;
+    }
+
+    .cloudImageLeftBottom {
+      position: absolute;
+      top: 400px;
+      left: 160px;
+    }
+
+    .cloudImageRight {
+      position: absolute;
+      top: 200px;
+      right: 12%;
+    }
+
+    .starImageLeftTop {
+      position: absolute;
+      top: 50px;
+      left: 30%;
+    }
+
+    .starImageRightTop {
+      position: absolute;
+      top: 50px;
+      right: 35%;
+      rotate: 180deg;
+    }
+
+    .starImageLeftBottom {
+      position: absolute;
+      top: 280px;
+      left: 28%;
+      rotate: 120deg;
+    }
+
+    .starImageRightBottom {
+      position: absolute;
+      top: 400px;
+      right: 28%;
+    }
+
+    .mainHeading {
+      color: black;
+      font-family: "Comic Sans MS", cursive;
+      font-weight: 300;
+      font-size: 1rem;
+      border: 10px solid white;
+      padding: 10px;
+    }
+
+    .welcomeText {
+      field-sizing: content;
+      color: black;
+      font-weight: 500;
+      margin-top: 20px;
+      border-radius: 28px;
+      padding: 10px 20px;
+      background-color: white;
+      border: none;
+    }
+
+    .welcomeText::placeholder {
+      color: black;
+      font-family: "Comic Sans MS", "Arial", sans-serif;
+      font-size: 14px;
+    }
+
+    .flexContainer {
+      position: relative;
+      display: inline-block;
+    }
+
+    .inputField {
+      padding-right: 40px;
+      color: black;
+      font-weight: 500;
+      margin-top: 20px;
+      border-radius: 28px;
+      padding: 10px 20px;
+      background-color: white;
+      border: none;
+      width: 270px;
+    }
+
+    .inputField::placeholder {
+      color: grey;
+      font-family: "Comic Sans MS", "Arial", sans-serif;
+      font-size: 14px;
+    }
+
+    .inputField:focus {
+      outline: none;
+    }
+
+    .buttonContainer {
+      width: 30px;
+      position: absolute;
+      height: 30px;
+      right: 20px;
+      top: 25px;
+      text-align: center;
+      border-radius: 28px;
+    }
+
+    .askButton {
+      position: absolute;
+      background-color: white;
+      cursor: pointer;
+      border: none;
+    }
+  }
+}
