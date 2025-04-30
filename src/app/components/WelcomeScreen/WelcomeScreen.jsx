@@ -21,7 +21,6 @@ const WelcomeScreen = () => {
   };
 
   const handleKeyDown = (event) => {
-    console.log("Praneeth", event.key);
     if (event.key === "Enter") {
       handleButtonClick();
     }
@@ -79,9 +78,9 @@ const WelcomeScreen = () => {
           className={styles.starImageRightBottom}
         />
         <input
-          disabled
           placeholder="Hi there! How can I help you today?"
           className={styles.welcomeText}
+          disabled={true}
         />
         <div className={styles.flexContainer}>
           <input
