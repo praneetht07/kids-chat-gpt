@@ -6,7 +6,7 @@ import Image from "next/image";
 import pikachuSadImage from "../assets/images/pikachu-sad.png";
 import moonImage from "../assets/images/moon.png";
 
-const ErrorPage = () => {
+const MaintenancePage = () => {
   return (
     <div
       style={{
@@ -68,4 +68,4 @@ const ErrorPage = () => {
   );
 };
 
-export default ErrorPage;
+export default MaintenancePage;

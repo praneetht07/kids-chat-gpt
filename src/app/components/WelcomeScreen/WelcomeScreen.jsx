@@ -17,7 +17,7 @@ const WelcomeScreen = () => {
   };
 
   const handleButtonClick = () => {
-    redirect("/404");
+    redirect("/maintenance");
   };
 
   const handleKeyDown = (event) => {
